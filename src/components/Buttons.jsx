@@ -2,6 +2,14 @@ import "../styles/Buttons.css";
 
 export default function Buttons(props){
   return(
-    <button className="button">{props.label}</button>
+    <div>
+      <button onClick={e => props.click(props.label)} className={`
+        button 
+        ${props.operation ? 'operation' : ''}
+        ${props.double ? 'double' : ''}
+        ${props.triple ? 'triple' : ''}
+      `}>{props.label}</button>
+
+    </div>
   )
 };
