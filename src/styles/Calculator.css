@@ -5,7 +5,7 @@ body {
   align-items: center;
   text-align: center;
   color: #fff;
-  background: #111;
+  background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
 }
 
 .main {
@@ -15,5 +15,7 @@ body {
   overflow: hidden;
   text-align: center;
   color: #fff;
-  background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
 };
