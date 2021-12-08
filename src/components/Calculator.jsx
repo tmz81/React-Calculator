@@ -1,9 +1,11 @@
 import "../styles/Calculator.css";
+import Display from "./Display";
 import Buttons from "./Buttons";
 
 function Calculator(){
   return(
     <div className="main">
+      <Display value={100}/>
       <Buttons label="AC"/>
       <Buttons label="/"/>
       <Buttons label="7"/>
