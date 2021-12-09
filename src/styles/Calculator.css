@@ -15,7 +15,6 @@ body {
   overflow: hidden;
   text-align: center;
   color: #fff;
-  /* cursor: pointer; */
 
   display: grid;
   grid-template-columns: repeat(4, 25%);

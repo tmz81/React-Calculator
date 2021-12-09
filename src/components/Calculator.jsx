@@ -2,7 +2,7 @@ import "../styles/Calculator.css";
 import Display from "./Display";
 import Buttons from "./Buttons";
 
-function Calculator(){
+export default function Calculator(){
   return(
     <div className="main">
       <Display value={100}/>
@@ -26,5 +26,3 @@ function Calculator(){
     </div>
   )
 };
-
-export default Calculator
