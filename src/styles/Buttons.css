@@ -4,8 +4,8 @@
 };
 
 .button {
-  cursor: pointer;
   font-size: 1.4em;
+  outline: none;
   border: none;
   border-right: var(--border-button);
   border-bottom: var(--border-button);
@@ -16,19 +16,19 @@
   background-color: #ccc;
 }
 
-.button.operation{
-  color: #fff;
-  background-color: #fa8231;
-}
-
-.button.operation:active{
-  background-color: #fa8231cc;
-}
-
 .button.double {
   grid-column: span 2;
 }
 
 .button.triple {
   grid-column: span 3;
+}
+
+.button.operation{
+  background-color: #fa8231;
+  color: #fff;
+}
+
+.button.operation:active{
+  background-color: #fa8231cc;
 }

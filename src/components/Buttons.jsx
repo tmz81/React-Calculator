@@ -1,11 +1,16 @@
 import "../styles/Buttons.css";
 
-export default function Buttons(props){
+export default function Button(props){
+  let classes = 'button ';
+  classes += props.operation ? 'operation' : ''
+  classes += props.double ? 'double' : ''
+  classes += props.triple ? 'triple' : ''
+  
   return(
-    <div>
-       <button className={`
-        butto
-      `}>{props.label}</button> 
-    </div>
+    <button 
+    onClick={e => props.click && props.click(props.label)} 
+    className={classes}>
+      {props.label}
+    </button> 
   )
 };
