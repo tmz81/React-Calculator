@@ -1,8 +1,8 @@
-* { 
-  box-sizing: border-box; 
-  overflow: hidden; 
-  margin: 0; 
-  padding: 0; 
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -13,7 +13,12 @@ body {
   align-items: center;
   text-align: center;
   color: #fff;
-  background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+  background: linear-gradient(
+    to right,
+    rgb(18, 194, 233),
+    rgb(196, 113, 237),
+    rgb(246, 79, 89)
+  );
 }
 
 .calculator {
@@ -28,6 +33,10 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: 1fr repeat(5, 48px);
-};
-.span-2 { grid-column: span 2; };
-.span-3 { grid-column: span 3; };
+}
+.span-2 {
+  grid-column: span 2;
+}
+.span-3 {
+  grid-column: span 3;
+}

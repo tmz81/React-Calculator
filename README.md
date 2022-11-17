@@ -16,7 +16,7 @@ A calculadora é uma aplicação de introdução ao React, onde foi possível co
 ## 💻 Tecnologias
 
 - ReactJS
-- CSS
+- jsx~
 
 ## :memo: Licença
 
